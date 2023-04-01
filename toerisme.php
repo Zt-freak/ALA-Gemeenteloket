@@ -40,7 +40,7 @@
                             <p>
                             The further south you come the more channeled the Pekel A becomes, boggers working on the land are demanded to repurpose the ground for agriculture. The most common crops grown in Pekela are rye and oatmeal. Pekela is also home to one of the biggest hemp nurseries in The Netherlands.</p>
                             <center><div class='articleImageContainer'>
-                            <img class='articleImage' src='images/EngelModderman.jpg'>
+                            <img id='overlayTrigger' class='articleImage' src='images/EngelModderman.jpg'>
                             </div></center><br>
                             <div class='captionContainer'><p class='caption'>Engel Modderman, leader of the VCP</p></div>
                             <p>

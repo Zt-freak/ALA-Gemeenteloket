@@ -1,0 +1,406 @@
+/*author: Bryan*/
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #FEFEFE;
+}
+
+h1 {
+    color: #444444;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h2 {
+    color: #444444;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #444444;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14pt;
+    line-height: 95%;
+}
+
+label {
+    color: #444444;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14pt;
+}
+
+.articleDesc {
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+ul li {
+    color: #444444;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navImageContainer {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/background1.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+.langSelector {
+    float: right;
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+}
+
+.langSelector tr td {
+    width: calc(100% / 3);
+}
+
+.flagButton {
+    position: relative;
+    border: none;
+    width: 45px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 0;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: width 200ms, margin 200ms;
+    transition: width 200ms, margin 200ms;
+}
+
+.flagButton:hover {
+    width: 55px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#NLflag {
+    background:url("../images/NL%20flag.svg");
+    background-size: 100% 100%;
+}
+
+#ENflag {
+    background:url("../images/UK%20flag.svg");
+    background-size: 100% 100%;
+}
+
+#GOSflag {
+    background:url("../images/Groningen%20flag.svg");
+    background-size: 100% 100%;
+}
+
+.logoContainer {
+    float: left;
+    width: 250px;
+    height: 80px;
+    margin: 20px;
+    background-image: url(../images/Gemeente%20Pekela%20Blue.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menuContainer {
+    width: 100%;
+    background-color: rgb(54, 93, 155);
+    overflow: hidden;
+    /*background: linear-gradient(to right, rgb(54, 93, 155)  , RGBA(0, 128, 128, 0) 95%);*/
+}
+
+.menuButton {
+    background-color: rgb(54, 93, 155);
+    border: none;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+}
+.menuButton:hover {
+    background-color: rgb(39, 68, 114);
+    color: white;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.content {
+    background-color: lightpink;
+}
+
+.contentContainer {
+    float: left;
+    width: 80%;
+    padding-left: 2px;
+}
+
+.articleImage {
+    width: 500px;
+}
+
+.articleImageContainer {
+    width: max-content;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.caption {
+    margin: 0;
+    font-size: 10pt;
+}
+
+.captionContainer {
+    display: block;
+    width: 500px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.submitButton {
+    background-color: rgb(54, 93, 155);
+    border: none;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: rgb(39, 68, 114);
+    color: white;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.inverseSubmitButton {
+    background-color: white;
+    border: none;
+    color: rgb(39, 68, 114);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.inverseSubmitButton:hover {
+    background-color: rgb(39, 68, 114);
+    color: white;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.appointmentCheck {
+    background-color: rgb(54, 93, 155);
+    padding: 10px;
+}
+
+.appointmentCheck p {
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15pt;
+}
+
+.sideContent {
+    float: right;
+    width: 250px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.sideContentParagraph {
+    font-size: 12pt;
+    margin-left: 10px;
+}
+
+.separator {
+    float: center;
+    height: 2px;
+    border-top: rgb(54, 93, 155) solid 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.socialMedia {
+    width: 100%;
+    text-align: center;
+}
+
+.socialMedia tr td{
+    width: 40px;
+    text-align: center;
+}
+
+.facebookIcon {
+    background-image: url(../images/Facebook%20Blue.svg);
+    background-size: contain;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}
+
+.twitterIcon {
+    background-image: url(../images/Twitter%20Blue.svg);
+    background-size: contain;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}
+
+.adviserment {
+    width:250px;
+}
+
+.footerImageContainer {
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/background1.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+#overlayTrigger {
+}
+
+#overlay {
+    height:100%;
+    width:100%;
+    overflow:visible;
+    text-align: center;
+    position: fixed;
+    pointer-events: none;
+    background-image: url(../images/ArnoSmit.jpg);
+    background-size: cover;
+    background-position: center top;
+    
+    opacity:0;  /* make things invisible upon start */
+   -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+   -moz-animation:fadeIn ease-in 1;
+   animation:fadeIn ease-in 1;
+
+   -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+   -moz-animation-fill-mode:forwards;
+   animation-fill-mode:forwards;
+
+   -webkit-animation-duration:60s;
+   -moz-animation-duration:60s;
+   animation-duration:60s;
+
+   -webkit-animation-delay: 20s;
+   -moz-animation-delay: 20s;
+   animation-delay: 20s;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:0.8; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:0.8; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:0.8; } }
+
+#overlay:hover {
+    opacity: 0.8;
+}
+
+#overlay {
+  
+}
+
+@media (max-width:1500px) {
+      .contentContainer {
+        width: 60%;
+      }
+    }
+
+@media (max-width:800px) {
+      .articleImage {
+        width: 350px;
+      }
+      .captionContainer {
+        width: 350px;
+      }
+    }
+
+@media (max-width:700px) {
+    .langSelector {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+    .menuButton {
+        background-color: rgb(54, 93, 155);
+        color: white;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .contentContainer {
+        width: 90%;
+        margin: 5%;
+    }
+    .sideContent {
+        width: 100%;
+        background-color: rgb(54, 93, 155);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sideContent h2, .sideContent p, .sideContent ul li {
+        color: white;
+    }
+    .separator {
+        border-top: #EEEEEE solid 2px;
+    }
+    .sideContent iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .facebookIcon {
+        background-image: url(../images/Facebook%20White.svg);
+        width: 60px;
+        height: 60px;
+    }
+    .twitterIcon {
+        background-image: url(../images/Twitter%20White.svg);
+        width: 60px;
+        height: 60px;
+    }
+    .footerImageContainer {
+        display: none;
+    }
+    .adviserment {
+        display: none;
+    }
+}
